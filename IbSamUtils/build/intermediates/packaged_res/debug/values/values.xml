@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="color_TALET">#212325</color>
+    <color name="color_TANI">#E1D5C9</color>
+    <color name="color_lOWEL">#C49450</color>
+    <color name="darkGrey">#373737</color>
+    <color name="duskYellow">#A6A5A5</color>
+    <color name="lightGreen">#303030</color>
+    <color name="lightGrey">#FFC107</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="textGrey">#4A4A4A</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Utils</string>
+    <string name="share_text">Let me recommend you this application</string>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#A6A5A5</item>
+        <item name="colorControlActivated">#FFC107</item>
+    </style>
+    <style name="Theme.Utils" parent="Theme.MaterialComponents.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

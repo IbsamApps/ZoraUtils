@@ -1,0 +1,37 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ibsamapps.zorautils" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->C:\Users\Lenovo\Desktop\TestUtils\IbSamUtils\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="32" />
+7-->C:\Users\Lenovo\Desktop\TestUtils\IbSamUtils\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->C:\Users\Lenovo\Desktop\TestUtils\IbSamUtils\src\main\AndroidManifest.xml:5:5-79
+9-->C:\Users\Lenovo\Desktop\TestUtils\IbSamUtils\src\main\AndroidManifest.xml:5:22-76
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->C:\Users\Lenovo\Desktop\TestUtils\IbSamUtils\src\main\AndroidManifest.xml:6:5-67
+10-->C:\Users\Lenovo\Desktop\TestUtils\IbSamUtils\src\main\AndroidManifest.xml:6:22-64
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->C:\Users\Lenovo\Desktop\TestUtils\IbSamUtils\src\main\AndroidManifest.xml:7:5-76
+11-->C:\Users\Lenovo\Desktop\TestUtils\IbSamUtils\src\main\AndroidManifest.xml:7:22-73
+12
+13    <application>
+13-->C:\Users\Lenovo\Desktop\TestUtils\IbSamUtils\src\main\AndroidManifest.xml:9:5-16:19
+14        <activity
+14-->C:\Users\Lenovo\Desktop\TestUtils\IbSamUtils\src\main\AndroidManifest.xml:10:9-12:40
+15            android:name="com.ibsamapps.zorautils.PrivacyActivity"
+15-->C:\Users\Lenovo\Desktop\TestUtils\IbSamUtils\src\main\AndroidManifest.xml:11:13-44
+16            android:exported="false" />
+16-->C:\Users\Lenovo\Desktop\TestUtils\IbSamUtils\src\main\AndroidManifest.xml:12:13-37
+17        <activity
+17-->C:\Users\Lenovo\Desktop\TestUtils\IbSamUtils\src\main\AndroidManifest.xml:13:9-15:40
+18            android:name="com.ibsamapps.zorautils.NoConnection"
+18-->C:\Users\Lenovo\Desktop\TestUtils\IbSamUtils\src\main\AndroidManifest.xml:14:13-41
+19            android:exported="false" />
+19-->C:\Users\Lenovo\Desktop\TestUtils\IbSamUtils\src\main\AndroidManifest.xml:15:13-37
+20    </application>
+21
+22</manifest>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDD"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/mopub_native_ad_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#AAA"
+            android:scaleType="centerInside" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/mopub_native_ad_icon"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            tools:ignore="ObsoleteLayoutParam">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_marginStart="5dp"
+                android:background="#AAA" />
+
+            <View
+                android:layout_width="80dp"
+                android:layout_height="12dp"
+                android:layout_marginStart="5dp"
+                android:background="#AAA" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@+id/mopub_native_ad_main_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:background="#AAA"
+        android:scaleType="fitXY"
+        tools:ignore="InefficientWeight" />
+
+    <LinearLayout
+        android:id="@+id/adBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mopub_native_ad_main_imageview"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="ObsoleteLayoutParam">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginEnd="3dp"
+            android:layout_weight="1"
+            android:background="#AAA" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:backgroundTint="#AAA"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="Install Now"
+            android:textAllCaps="false"
+            android:textColor="#2B2B2B"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</LinearLayout>
